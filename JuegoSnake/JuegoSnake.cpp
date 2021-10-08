@@ -4,21 +4,8 @@ Autor: Sergio Sanchez Iglesias
 Fecha: 7/10/2021
 */
 
-#include<iostream>
+#include "JuegoSnake.h"
 
-bool gameOver;
-const int width = 20;
-const int height = 20;
-int x,y, fruitX, fruitY, score;
-int tailX[100], tailY[100];
-int nTail;
-enum eDirection {STOP = 0, LEFT, RIGHT, UP, DOWN};
-eDirection dir;
-
-void setup();
-void draw();
-void input();
-void logic();
 
 int main()
 {
